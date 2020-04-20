@@ -16,6 +16,6 @@ services:
                 environment:
                         - NVIDIA_VISIBLE_DEVICES=all
                         - NVIDIA_DRIVER_CAPABILITIES=compute,utility
-#                command: python make_data.py
+                command: python play_game.py
 #sh -c "jt -t ${THEME}; jupyter notebook --port 9999 --ip 0.0.0.0"
 
