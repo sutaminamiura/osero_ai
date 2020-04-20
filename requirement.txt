@@ -1,0 +1,9 @@
+jupyter
+jupyterthemes
+numpy
+gym
+keras
+tensorflow-gpu
+pyglet
+pyopengl
+pyvirtualdisplay

@@ -1,0 +1,21 @@
+version: '2.4'
+services:
+        osero:
+                build:
+                        context: ./
+                        args: 
+                                - USER=miud
+                tty: true
+                volumes:
+                        - ./source:/home/miud/source
+                working_dir: /home/miud/source/
+                ports:
+                        - '9999:9999'
+                runtime: nvidia
+                #gpus: all
+                environment:
+                        - NVIDIA_VISIBLE_DEVICES=all
+                        - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+#                command: python make_data.py
+#sh -c "jt -t ${THEME}; jupyter notebook --port 9999 --ip 0.0.0.0"
+
