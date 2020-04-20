@@ -11,6 +11,7 @@ docker-compose up
 
 めっちゃシンプルです。
 
+```
 osero_1  | --------
 osero_1  | --------
 osero_1  | --------
@@ -21,4 +22,4 @@ osero_1  | --------
 osero_1  | --------
 osero_1  | 
 osero_1  | x yで場所を指定
-
+```
